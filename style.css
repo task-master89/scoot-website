@@ -1,0 +1,1760 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Space Mano", monospace;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px 16px 100px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.logo {
+  width: 90px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #939caa;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav a:hover,
+nav a:active {
+  color: #fcb72b;
+}
+.header-btn {
+  font-weight: bold;
+  background-color: #fcb72b;
+  padding: 10px 20px;
+  border: 2px solid #fcb72b;
+  cursor: pointer;
+}
+.header-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-btn:hover,
+.header-btn:active {
+  background-color: #fff;
+  color: #fcb72b;
+}
+.header-btn a:hover,
+.header-btn a:active {
+  color: #fcb72b;
+}
+.main-container-aside {
+  padding-bottom: 150px;
+  position: relative;
+  background-image: url("assets/images/home-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aside-h1 {
+  padding-top: 100px;
+  padding-left: 100px;
+  font-size: 56px;
+  font-weight: bolder;
+  color: #fff;
+}
+.yellow-line {
+  position: absolute;
+  left: -50px;
+  top: 300px;
+}
+.aside-p {
+  padding-top: 20px;
+  padding-left: 180px;
+  padding-right: 600px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+}
+.white-circle {
+  position: absolute;
+  width: 150px;
+  right: -23px;
+  bottom: 224px;
+}
+.right-arrow {
+  position: absolute;
+  width: 400px;
+  right: 199px;
+  bottom: 210px;
+}
+.aside-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.aside-btn {
+  margin-left: 180px;
+  margin-top: 90px;
+}
+.aside-btn:hover,
+.aside-btn:active {
+  background-color: transparent;
+  color: #fcb72b;
+}
+.main-container-article {
+  padding: 100px 100px 100px 100px;
+  position: relative;
+}
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 150px;
+}
+.figure-h3 {
+  padding-top: 26px;
+  font-size: 24px;
+  color: #939caa;
+}
+.figure-p {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+}
+.article-figure {
+  position: relative;
+  z-index: 0;
+}
+.border {
+  top: 150px;
+  width: 70%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  border: 4px solid #e5ecf4;
+  z-index: 0;
+}
+.locate-app {
+  position: relative;
+}
+.third-aside,
+.second-aside,
+.article-aside {
+  position: relative;
+  padding-bottom: 100px;
+}
+.payments-container,
+.near-you-container,
+.telemetry-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.easy-ride-h1 {
+  color: #495567;
+  font-size: 48px;
+  padding-right: 300px;
+}
+.easy-ride-p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-right: 150px;
+}
+.payments,
+.near-image,
+.telemetry-image {
+  width: 400px;
+  border-radius: 200px;
+}
+.down-arrow {
+  position: absolute;
+  right: -208px;
+  bottom: 85px;
+  z-index: 1;
+}
+.circle {
+  position: absolute;
+  width: 400px;
+  clip-path: inset(0 50% 0 0);
+  right: -440px;
+  top: 0;
+  z-index: 0;
+}
+.second-circle {
+  position: absolute;
+  left: -470px;
+  top: 0;
+  clip-path: inset(0 0 0 50%);
+}
+.rights-arrow {
+  top: 20px;
+  position: absolute;
+  left: -270px;
+}
+.near-you-container {
+  gap: 250px;
+}
+.coming-soon-h2 {
+  font-size: 48px;
+  color: #495567;
+  padding-bottom: 20px;
+}
+.coming-soon-p {
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+.zero-hassle-h2 {
+  font-size: 48px;
+  color: #495567;
+  padding-bottom: 20px;
+  padding-right: 400px;
+}
+.zero-hassle-p {
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  padding-right: 300px;
+}
+.second-down-arrow {
+  position: absolute;
+  right: -549px;
+  top: 61px;
+  z-index: 1;
+}
+.third-circle {
+  position: absolute;
+  width: 400px;
+  clip-path: inset(0 50% 0 0);
+  right: -440px;
+  top: 0;
+  z-index: 0;
+}
+.footer {
+  position: relative;
+}
+.footer-container {
+  background-color: #495567;
+  padding: 100px 100px 100px 100px;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text-h2 {
+  color: #fff;
+  font-size: 48px;
+  padding-right: 300px;
+}
+.play-store-icon {
+  margin-left: 10px;
+}
+.semi-circle {
+  position: absolute;
+  right: -190px;
+  bottom: 0;
+  z-index: 0;
+}
+.end-footer {
+  background-color: #333a44;
+  padding: 30px 100px 30px 100px;
+}
+.footer-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.end-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-nav {
+  filter: brightness(0) invert(1);
+}
+.social-icon {
+  cursor: pointer;
+  padding-right: 10px;
+}
+.social-icon:hover,
+.social-icon:active {
+  filter: brightness(0) invert(1);
+}
+.image-app {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* ABOUT DESIGN */
+.abt-btn {
+  font-weight: bold;
+  background-color: #fcb72b;
+  padding: 10px 20px;
+  border: 2px solid #fcb72b;
+  cursor: pointer;
+}
+.abt-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.about-main-content {
+  padding: 40px 0 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/images/about-hero-desktop.jpg);
+}
+.white-circle-about {
+  position: absolute;
+  width: 150px;
+  right: -25px;
+}
+.about-h1 {
+  color: #fff;
+  font-size: 48px;
+}
+.about-first-aside {
+  padding: 100px 100px 100px 100px;
+  position: relative;
+}
+.about-first-aside-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.digital-era {
+  width: 400px;
+  border-radius: 200px;
+}
+.about-circle {
+  position: absolute;
+  right: -380px;
+  top: 80px;
+}
+.about-first-arrow {
+  position: absolute;
+  right: -100px;
+  top: 320px;
+}
+.about-first-aside-h2 {
+  color: #495567;
+  font-size: 48px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+.about-first-aside-p {
+  color: #939caa;
+  font-size: 15px;
+  padding-right: 300px;
+  line-height: 1.5;
+}
+.better-aside {
+  position: relative;
+  padding: 100px 100px 100px 100px;
+}
+.about-second-circle {
+  position: absolute;
+  left: -370px;
+  top: 80px;
+}
+.about-second-arrow {
+  position: absolute;
+  left: -160px;
+  bottom: 350px;
+}
+.better-aside-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.better-living {
+  width: 400px;
+  border-radius: 200px;
+}
+.better-aside-text-h2 {
+  font-size: 48px;
+  color: #495567;
+  padding-bottom: 20px;
+  padding-left: 300px;
+}
+.better-aside-text-p {
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-left: 300px;
+}
+.our-value-aside {
+  position: relative;
+}
+.our-values-blockquote {
+  position: relative;
+  text-align: center;
+}
+.our-value-aside-h2 {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.our-tech {
+  position: relative;
+  width: 200px;
+  border-radius: 100px;
+}
+.our-value-blockquote-p-one {
+  background-color: #fcb72b;
+  background-color: #fcb72b;
+  padding: 30px 10px;
+  border-radius: 500px;
+  width: 80px;
+  text-align: center;
+  height: 80px;
+  font-weight: bolder;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 160px;
+}
+.our-value-blockquote-h3 {
+  font-size: 24px;
+  color: #495567;
+  padding-top: 70px;
+}
+.our-value-blockquote-p-two {
+  font-size: 14px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+.our-values-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 100px 100px 100px;
+  gap: 2rem;
+}
+.main-container-article-about {
+  padding: 100px 100px;
+}
+.faq-h2 {
+  font-size: 48px;
+  color: #495567;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.faq-container-h2 {
+  font-size: 40px;
+  color: #495567;
+  width: 100%;
+}
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-bottom: 60px;
+}
+.faq-content-p {
+  color: #495567;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+.faq-tittle:hover {
+  background: #fcb72b;
+}
+.faq-tittle {
+  font-size: 28px;
+  color: #495567;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  cursor: pointer;
+  background: #f2f5f9;
+}
+.faq-item input {
+  display: none;
+}
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #f2f5f9;
+  padding: 0 20px;
+  color: #495567;
+}
+.faq-item input:checked ~ .faq-content {
+  max-height: 500px;
+  padding: 20px;
+}
+.faq-tittle::after {
+  content: ">";
+  transform: rotate(90deg);
+  transition: transform 0.3s;
+  color: #fcb72b;
+  font-size: 24px;
+}
+.faq-item input:checked + .faq-tittle::after {
+  transform: rotate(270deg);
+}
+
+/* career design */
+.careers-main-content {
+  padding: 40px 0 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  background-image: url(assets/images/careers-locations-hero-desktop.jpg);
+}
+.careers-circle-about {
+  position: absolute;
+  width: 150px;
+  right: -25px;
+}
+.careers-h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+.careers-join-us-section {
+  padding: 100px 100px 100px 100px;
+  position: relative;
+}
+.careers-join-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.careers-join-us-h2 {
+  font-size: 40px;
+  color: #495567;
+  padding-bottom: 20px;
+  padding-right: 200px;
+}
+.careers-join-us-p {
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-right: 200px;
+  padding-bottom: 30px;
+}
+.careers-btn {
+  font-weight: bold;
+  background-color: #fcb72b;
+  padding: 10px 20px;
+  border: 2px solid #fcb72b;
+  cursor: pointer;
+}
+.careers-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.join-us {
+  width: 400px;
+  border-radius: 200px;
+}
+.careers-circle {
+  position: absolute;
+  right: -379px;
+  top: 80px;
+}
+.careers-arrow {
+  position: absolute;
+  right: -110px;
+  top: 360px;
+}
+.position {
+  padding: 0 100px 100px 100px;
+}
+.position-figure {
+  background: #f2f5f9;
+  padding: 30px 30px;
+  margin-bottom: 20px;
+}
+.position-h3 {
+  font-size: 24px;
+  color: #495567;
+  padding-bottom: 10px;
+}
+.position-p {
+  font-size: 15px;
+  color: #939caa;
+  font-weight: bold;
+}
+.position-h3::after {
+  content: "Apply";
+  float: right;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 60px;
+  text-align: center;
+  background-color: #fcb72b;
+  cursor: pointer;
+}
+.position-h3:hover::after,
+.position-h3:active::after {
+  border: 2px solid #fcb72b;
+  background-color: transparent;
+  color: #fcb72b;
+}
+
+/* LOCATION DESING */
+.locations-main-content {
+  padding: 40px 0 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  background-image: url(assets/images/careers-locations-hero-desktop.jpg);
+}
+.locations-circle-about {
+  position: absolute;
+  width: 150px;
+  right: -25px;
+}
+.locations-h1 {
+  color: #fff;
+  font-size: 48px;
+}
+.map-section {
+  padding: 100px 100px 50px 100px;
+  position: relative;
+}
+.world-map {
+  width: 100%;
+  position: relative;
+}
+.location-text-p-one,
+.location-text-p-two,
+.location-text-p-three,
+.location-text-p-four {
+  position: absolute;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #495567;
+  font-weight: bold;
+  padding: 16px 36px;
+  background-color: #fcb72b;
+  display: inline-block;
+}
+.location-text-p-one {
+  top: 190px;
+  left: 320px;
+}
+.location-text-p-two {
+  top: 130px;
+  left: 490px;
+}
+.location-text-p-three {
+  top: 170px;
+  left: 1000px;
+}
+.location-text-p-four {
+  top: 300px;
+  left: 930px;
+}
+.location-text-p-one::after,
+.location-text-p-two::after,
+.location-text-p-three::after,
+.location-text-p-four::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-200%);
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #fcb72b;
+}
+.your-city-section {
+  padding: 0 100px 100px 100px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-city-h2 {
+  font-size: 40px;
+  color: #495567;
+  width: 80%;
+  margin-right: 70px;
+}
+.your-city-p {
+  font-size: 15px;
+  color: #939caa;
+  line-height: 1.5;
+  padding-right: 100px;
+}
+.your-city-btn {
+  font-weight: bold;
+  background-color: #fcb72b;
+  padding: 10px 20px;
+  border: 2px solid #fcb72b;
+  cursor: pointer;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+}
+.World-map-mobil,
+.psuedo {
+  display: none;
+}
+
+/* media query */
+@media (max-width: 1200px) {
+  .aside-p {
+    font-size: 16px;
+  }
+  .zero-hassle-h2 {
+    padding-right: 200px;
+  }
+  .better-aside-text-p,
+  .figure-p {
+    font-size: 14px;
+  }
+  .careers-join-us-p,
+  .careers-join-us-h2,
+  .about-first-aside-h2,
+  .footer-text-h2,
+  .zero-hassle-p,
+  .easy-ride-h1 {
+    padding-right: 100px;
+  }
+  .near-you-container {
+    gap: 150px;
+  }
+  .your-city-p,
+  .zero-hassle-h2 {
+    padding-right: 50px;
+  }
+  .better-aside-text-h2,
+  .better-aside-text-p {
+    padding-left: 200px;
+  }
+  .about-first-aside-p {
+    padding-right: 150px;
+  }
+  .your-city-h2 {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .World-map-mobil,
+  .psuedo {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 20px 50px 16px 50px;
+  }
+  .aside-h1 {
+    font-size: 48px;
+    padding-left: 50px;
+  }
+  .aside-p {
+    padding-right: 400px;
+    padding-left: 100px;
+  }
+  .yellow-line {
+    left: -110px;
+    top: 260px;
+    width: 200px;
+  }
+  .right-arrow {
+    width: 250px;
+    right: 150px;
+    bottom: 230px;
+  }
+  .aside-btn {
+    margin-top: 120px;
+    margin-left: 100px;
+  }
+  .main-container-article {
+    padding: 80px 50px 80px 50px;
+  }
+  .figure-p {
+    font-size: 12px;
+  }
+  .order {
+    gap: 1rem;
+    padding-bottom: 100px;
+  }
+  .figure-h3 {
+    font-size: 20px;
+  }
+  .figure-p {
+    font-size: 14px;
+  }
+  .easy-ride-h1 {
+    font-size: 28px;
+    padding-right: 150px;
+  }
+  .zero-hassle-p,
+  .coming-soon-p,
+  .easy-ride-p {
+    font-size: 12px;
+  }
+  .coming-soon-h2 {
+    font-size: 32px;
+  }
+  .zero-hassle-h2 {
+    font-size: 38px;
+  }
+  .footer-text-h2 {
+    font-size: 32px;
+  }
+  .border {
+    top: 120px;
+  }
+  .about-first-aside-p {
+    font-size: 11px;
+  }
+  .about-first-aside-h2 {
+    font-size: 24px;
+  }
+  .better-aside-text-h2 {
+    font-size: 36px;
+    padding-left: 150px;
+  }
+  .our-value-blockquote-p-two {
+    font-size: 11px;
+  }
+  .better-aside-text-p {
+    font-size: 11px;
+    padding-left: 150px;
+  }
+  .faq-container-h2 {
+    font-size: 32px;
+  }
+  .faq-tittle {
+    font-size: 18px;
+  }
+  .location-text-p-one {
+    left: 200px;
+  }
+  .location-text-p-two {
+    left: 380px;
+  }
+  .location-text-p-three {
+    left: 590px;
+  }
+  .location-text-p-four {
+    left: 620px;
+  }
+  .your-city-h2 {
+    font-size: 24px;
+  }
+  .your-city-p {
+    font-size: 11px;
+  }
+  .careers-join-us-h2 {
+    font-size: 24px;
+  }
+  .careers-join-us-p {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+  .join-us {
+    width: 300px;
+  }
+  .careers-circle {
+    right: -240px;
+    top: 110px;
+    width: 300px;
+  }
+  .digital-era {
+    width: 300px;
+  }
+  .about-circle {
+    right: -240px;
+    top: 100px;
+    width: 300px;
+  }
+  .careers-arrow {
+    right: -70px;
+    top: 340px;
+    width: 500px;
+  }
+  .about-first-arrow {
+    right: -45px;
+    top: 270px;
+    width: 500px;
+  }
+  .better-living {
+    width: 300px;
+  }
+  .about-second-circle {
+    left: -240px;
+    top: 100px;
+    width: 300px;
+  }
+  .about-second-arrow {
+    bottom: 270px;
+    width: 400px;
+  }
+  .payments,
+  .near-image,
+  .telemetry-image {
+    width: 300px;
+  }
+  .down-arrow {
+    right: -150px;
+    bottom: 80px;
+    width: 500px;
+  }
+  .circle {
+    right: -310px;
+    width: 300px;
+    top: 18px;
+  }
+  .second-circle {
+    width: 300px;
+    left: -320px;
+  }
+  .rights-arrow {
+    top: 10px;
+    width: 400px;
+    left: -250px;
+  }
+  .third-circle {
+    width: 300px;
+    right: -320px;
+    top: 20px;
+  }
+  .second-down-arrow {
+    right: -290px;
+    top: 80px;
+    width: 500px;
+  }
+  .World-map-mobil,
+  .psuedo {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container-aside {
+    background-image: url(assets/images/home-hero-tablet.jpg);
+    padding-bottom: 250px;
+  }
+  .yellow-line {
+    display: none;
+  }
+  .aside-h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+  .aside-p {
+    font-size: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+  }
+  .right-arrow {
+    width: 400px;
+    bottom: 30px;
+    left: -12px;
+  }
+  .white-circle {
+    bottom: 50px;
+  }
+  .aside-btn {
+    transform: translate(200%);
+    margin-top: 30px;
+  }
+  .order {
+    flex-direction: column;
+  }
+  .article-figure {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  .figure-p {
+    padding-right: 62px;
+    font-size: 15px;
+  }
+  .figure-h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000;
+  }
+  .border {
+    top: 0;
+    height: 23%;
+    width: 0;
+    margin-left: 90px;
+  }
+  .careers-join-us-content,
+  .payments-container,
+  .about-first-aside-div,
+  .telemetry-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-us,
+  .careers-circle,
+  .payments,
+  .digital-era,
+  .about-circle,
+  .better-living,
+  .about-second-circle,
+  .near-image,
+  .telemetry-image {
+    width: 400px;
+  }
+  .down-arrow {
+    right: -53px;
+    top: 270px;
+    width: 703px;
+  }
+  .footer-text,
+  .zero-hassle,
+  .coming-soon,
+  .easy-ride {
+    text-align: center;
+  }
+  .zero-hassle-h2,
+  .coming-soon-h2,
+  .easy-ride-h1 {
+    font-size: 48px;
+    padding-right: 101px;
+    padding-left: 100px;
+    color: #000;
+  }
+  .zero-hassle-p,
+  .coming-soon-p,
+  .easy-ride-p {
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .coming-soon-p {
+    padding-top: 20px;
+  }
+  .circle {
+    right: -350px;
+    width: 400px;
+    top: 5px;
+  }
+  .your-city-section,
+  .faq-container,
+  .footer-text,
+  .our-values-container,
+  .better-aside-div,
+  .near-you-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .second-circle {
+    width: 400px;
+    left: -340px;
+  }
+  .rights-arrow {
+    top: 0px;
+    left: -90px;
+  }
+  .third-circle {
+    width: 400px;
+    right: -335px;
+    top: 0;
+  }
+  .second-down-arrow {
+    right: -385px;
+    top: 65px;
+    width: 700px;
+  }
+  .footer-text-h2 {
+    font-size: 48px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+  }
+  .app-store-icon {
+    display: inline-block;
+  }
+  .careers-arrow,
+  .about-first-arrow {
+    width: auto;
+  }
+  .about-circle {
+    right: -290px;
+  }
+  .about-first-arrow {
+    right: 0;
+    top: 300px;
+  }
+  .careers-join-us-h2,
+  .better-aside-text-h2,
+  .about-first-aside-h2 {
+    font-size: 48px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .careers-join-us-p,
+  .better-aside-text-p,
+  .about-first-aside-p {
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .about-second-circle {
+    left: -290px;
+  }
+  .about-second-arrow {
+    top: 105px;
+    left: -40px;
+  }
+  .our-value-blockquote-h3 {
+    font-size: 36px;
+  }
+  .our-value-blockquote-p-two {
+    font-size: 15px;
+  }
+  .faq-container-h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  .faq-tittle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .careers-join-us-text {
+    text-align: center;
+  }
+  .careers-arrow {
+    right: -30px;
+    top: 360px;
+  }
+  .careers-circle {
+    right: -290px;
+  }
+  .careers-join-us-h2 {
+    font-size: 36px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .careers-join-us-p {
+    padding-bottom: 20px;
+  }
+  .position {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .location-text-p-one {
+    left: 120px;
+  }
+  .location-text-p-two {
+    left: 280px;
+  }
+  .location-text-p-three {
+    left: 490px;
+  }
+  .location-text-p-four {
+    top: 265px;
+    left: 555px;
+  }
+  .your-city-section {
+    text-align: center;
+  }
+  .your-city-h2 {
+    font-size: 48px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .your-city-btn {
+    width: auto;
+  }
+  .near-you-container {
+    gap: 2rem;
+  }
+  .World-map-mobil,
+  .psuedo {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  ul {
+    gap: 1rem;
+  }
+  .header {
+    padding: 20px 10px 16px 10px;
+  }
+  .aside-h1 {
+    padding-left: 0;
+  }
+  .aside-btn {
+    margin-left: 0;
+    margin-right: 0;
+    transform: translate(0%);
+  }
+  .aside-p {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .main-container-aside {
+    text-align: center;
+  }
+  .right-arrow {
+    left: -130px;
+  }
+  .figure-p {
+    padding-right: 0px;
+    font-size: 13px;
+  }
+  .third-circle,
+  .circle {
+    right: -390px;
+  }
+  .down-arrow {
+    right: -200px;
+  }
+  .border {
+    height: 14%;
+  }
+  .zero-hassle-h2,
+  .coming-soon-h2,
+  .easy-ride-h1 {
+    font-size: 28px;
+  }
+  .zero-hassle-p,
+  .coming-soon-p,
+  .easy-ride-p {
+    font-size: 12px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .second-circle {
+    left: -390px;
+  }
+  .rights-arrow {
+    left: -182px;
+  }
+  .footer-text-h2 {
+    text-align: center;
+    font-size: 36px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .end-footer {
+    padding: 30px 10px 30px 10px;
+  }
+  .about-circle {
+    right: -350px;
+  }
+  .about-first-arrow {
+    right: -190px;
+    top: 300px;
+  }
+  .careers-join-us-h2,
+  .better-aside-text-h2,
+  .about-first-aside-h2 {
+    font-size: 36px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .careers-join-us-p,
+  .better-aside-text-p,
+  .about-first-aside-p {
+    font-size: 11px;
+  }
+  .about-second-circle {
+    left: -350px;
+  }
+  .about-second-arrow {
+    left: -140px;
+  }
+  .our-value-blockquote-p-two {
+    font-size: 11px;
+  }
+  .main-container-article-about {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .careers-main-content,
+  .about-main-content,
+  .locations-main-content {
+    padding: 40px 0 40px 30px;
+  }
+  .location-text-p-one {
+    left: 50px;
+  }
+  .location-text-p-two {
+    left: 200px;
+  }
+  .location-text-p-three {
+    left: 380px;
+  }
+  .location-text-p-four {
+    top: 250px;
+    left: 420px;
+  }
+  .your-city-h2 {
+    font-size: 36px;
+  }
+  .your-city-p {
+    font-size: 10px;
+    padding-right: 0;
+  }
+  .careers-circle {
+    right: -350px;
+  }
+  .careers-arrow {
+    right: -200px;
+  }
+  .near-you-container {
+    gap: 2rem;
+  }
+  .World-map-mobil,
+  .psuedo {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation {
+    gap: 1rem;
+  }
+  .figure-p {
+    font-size: 9px;
+  }
+  .careers-circle,
+  .second-circle,
+  .third-circle,
+  .circle,
+  .about-second-circle,
+  .about-circle {
+    display: none;
+  }
+  .down-arrow {
+    right: -85px;
+    width: 500px;
+  }
+  .zero-hassle-h2,
+  .coming-soon-h2,
+  .easy-ride-h1 {
+    font-size: 36px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .near-you-container {
+    gap: 2rem;
+  }
+  .footer-text-h2 {
+    font-size: 32px;
+  }
+  .about-first-arrow {
+    right: -130px;
+    top: 370px;
+    width: 600px;
+  }
+  .careers-join-us-h2,
+  .better-aside-text-h2,
+  .about-first-aside-h2 {
+    font-size: 32px;
+  }
+  .faq-container-h2 {
+    font-size: 36px;
+  }
+  .faq-tittle {
+    font-size: 18px;
+  }
+  .location-text-p-one,
+  .location-text-p-two,
+  .location-text-p-three,
+  .location-text-p-four {
+    font-size: 12px;
+    padding: 10px 6px;
+  }
+  .location-text-p-one {
+    left: 122px;
+    top: 170px;
+  }
+  .location-text-p-three {
+    left: 325px;
+    top: 150px;
+  }
+  .location-text-p-four {
+    top: 210px;
+    left: 270px;
+  }
+  .your-city-h2 {
+    font-size: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .your-city-p {
+    font-size: 8px;
+  }
+  .careers-arrow {
+    right: -150px;
+    width: 600px;
+  }
+  .careers-join-us-h2,
+  .better-aside-text-h2,
+  .about-first-aside-h2 {
+    font-size: 24px;
+  }
+  .careers-join-us-p,
+  .better-aside-text-p,
+  .about-first-aside-p {
+    font-size: 10px;
+  }
+  .position {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .position-h3 {
+    font-size: 18px;
+  }
+  .position-p {
+    font-size: 10px;
+  }
+  .position-h3::after {
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+  .World-map-mobil,
+  .psuedo {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-btn {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+  .nagivation-p {
+    font-size: 10px;
+  }
+  br {
+    display: none;
+  }
+  .white-circle {
+    display: none;
+  }
+  .right-arrow {
+    left: -250px;
+    bottom: 40px;
+  }
+  .main-container-aside {
+    background-image: url(assets/images/home-hero-mobile.jpg) !important;
+    padding-bottom: 150px;
+  }
+  .border {
+    display: none;
+  }
+  .article-figure {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section-figure {
+    text-align: center;
+  }
+  .figure-p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .locate-app {
+    margin-top: 30px;
+  }
+  .join-us,
+  .careers-circle,
+  .payments,
+  .digital-era,
+  .about-circle,
+  .better-living,
+  .about-second-circle,
+  .near-image,
+  .telemetry-image {
+    width: 350px;
+  }
+  .down-arrow {
+    right: -375px;
+    width: 700px;
+    top: 200px;
+  }
+  .zero-hassle-h2,
+  .coming-soon-h2,
+  .easy-ride-h1 {
+    font-size: 32px;
+  }
+  .zero-hassle-p,
+  .coming-soon-p,
+  .easy-ride-p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .hbtn-two {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+  .second-down-arrow {
+    right: -485px;
+    top: 55px;
+  }
+  .footer-text-h2 {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  .play-store-icon,
+  .app-store-icon {
+    width: 130px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-nav {
+    width: 130px;
+    padding-bottom: 30px;
+  }
+  .nagivation-pm {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .social-icons {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .footer-dropdown,
+  .end-footer-container {
+    flex-direction: column;
+  }
+  .footer-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* about mobile */
+
+  .white-circle-about {
+    display: none;
+  }
+  .about-h1 {
+    padding-left: 100px;
+  }
+  .about-main-content {
+    background-image: url(assets/images/about-hero-mobile.jpg);
+  }
+  .about-first-arrow {
+    right: -325px;
+    top: 245px;
+    width: 700px;
+  }
+  .careers-join-us-section,
+  .our-values-container,
+  .better-aside,
+  .about-first-aside {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .careers-join-us-h2,
+  .better-aside-text-h2,
+  .about-first-aside-h2 {
+    font-size: 38px;
+  }
+  .careers-join-us-p,
+  .better-aside-text-p,
+  .about-first-aside-p {
+    font-size: 16px;
+  }
+  .about-second-arrow {
+    left: -133px;
+    width: 500px;
+  }
+  .our-value-blockquote-p-two {
+    font-size: 15px;
+  }
+
+  /* careers mobile */
+  .careers-main-content {
+    background-image: url(assets/images/careers-location-hero-mobile.jpg);
+  }
+  .careers-h1 {
+    padding-left: 65px;
+  }
+  .careers-circle-about {
+    display: none;
+  }
+  .careers-arrow {
+    top: 315px;
+    right: -340px;
+    width: 700px;
+  }
+  .careers-btn {
+    padding: 12px 24px;
+  }
+  .position-h3::after {
+    display: none;
+  }
+  .position-h3:hover::after,
+  .position-h3:active::after {
+    display: none;
+  }
+  .position-h3 {
+    text-align: center;
+    font-size: 23px;
+  }
+  .position-p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .position-p::after {
+    content: "Apply";
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 60px;
+    text-align: center;
+    background-color: #fcb72b;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+  }
+  .position-p:hover::after,
+  .position-p:active::after {
+    border: 2px solid #fcb72b;
+    background-color: transparent;
+    color: #fcb72b;
+  }
+  .position {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  /* location desktop */
+  .locations-main-content {
+    background-image: url(assets/images/careers-location-hero-mobile.jpg);
+  }
+  .locations-circle-about {
+    display: none;
+  }
+  .locations-h1 {
+    padding-left: 50px;
+  }
+  .World-map-mobil {
+    display: block;
+    width: 100%;
+  }
+  .world-map,
+  .location-text-p-one,
+  .location-text-p-two,
+  .location-text-p-three,
+  .location-text-p-four {
+    display: none;
+  }
+  .psuedo-order li {
+    list-style: none;
+    background-color: rgba(252, 235, 43, 0.12);
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #495567;
+    padding: 16px 0;
+    font-weight: bold;
+  }
+  .psuedo {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .psuedo-li {
+    margin-top: 16px;
+  }
+  .location-text-p-one::after,
+  .location-text-p-two::after,
+  .location-text-p-three::after,
+  .location-text-p-four::after {
+    display: none;
+  }
+  .your-city-section {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  .your-city-h2 {
+    margin-right: 0;
+  }
+  .your-city-p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .join-us,
+  .careers-circle,
+  .payments,
+  .digital-era,
+  .about-circle,
+  .better-living,
+  .about-second-circle,
+  .near-image,
+  .telemetry-image {
+    width: 300px;
+  }
+  .careers-join-us-p,
+  .better-aside-text-p,
+  .about-first-aside-p {
+    font-size: 15px;
+  }
+  .careers-arrow {
+    top: 270px;
+    right: -346px;
+  }
+  .about-second-arrow {
+    left: -190px;
+  }
+  .down-arrow {
+    right: -410px;
+    top: 179px;
+  }
+  .zero-hassle-h2,
+  .coming-soon-h2,
+  .easy-ride-h1 {
+    font-size: 31px;
+  }
+}
