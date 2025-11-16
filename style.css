@@ -1609,6 +1609,9 @@ nav a:active {
   .our-value-blockquote-p-two {
     font-size: 15px;
   }
+  .about-h1 {
+    padding-left: 129px;
+  }
 
   /* careers mobile */
   .careers-main-content {
@@ -1664,6 +1667,9 @@ nav a:active {
   .position {
     padding-left: 35px;
     padding-right: 35px;
+  }
+  .careers-h1 {
+    padding-left: 104px;
   }
 
   /* location desktop */
@@ -1722,6 +1728,9 @@ nav a:active {
   }
   .your-city-p {
     font-size: 14px;
+  }
+  .locations-h1 {
+    padding-left: 75px;
   }
 }
 @media (max-width: 375px) {
